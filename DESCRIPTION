@@ -1,0 +1,11 @@
+Package: sensorFenceR
+Title: Automate placement of Static Sensors in a marine environment along a linear transect
+Version: 0.0.1.0
+Authors@R: c(person("Stephen", "Scherrer", email = "scherrer@hawaii.edu", role = c("aut", 	"cre")),
+  	person("Astrid","Leitner",role="aut"))
+Description: Determine the placement of static sensors in an overlapping linear array configuration for use with acoustic telemetry and similar systems. The algorithm places subsequent sensors equidistantly using euclidean distance with respect to bathymetric contour changes. The algorithm then returns latitude longitude positions for each sensor.
+Depends: R (>= 3.4.3), marmap (>= 0.9.6), geosphere (>= 1.5)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
