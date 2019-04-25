@@ -18,9 +18,8 @@ You will need to download and install the following software:
   install_github("stevescherrer/sensorFenceR")
  
  Usage
- To design your sensor fence, call the function "sensorFenceR()"
+ To design your sensor fence, call the function "runSensorFenceR()"
  The function will prompt users to answer some basic questions using the console to paramterizing the model.
  Users will also need to click the start and end points of their transect (where the fence should span) on the interactive map that will appear.
  
  Following this, sensorFenceR will return the ideal location for deployment of your sensors.
- 
